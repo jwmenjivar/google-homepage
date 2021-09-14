@@ -1,13 +1,57 @@
+.material-icons-outlined {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
 html
 {
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 13px;;
+    font-size: 13px;
+}
+body
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5em 1fr 1fr;
+
+
 }
 header 
 {
     display: flex;
     flex-direction: row;
     float: right;
+}
+#sign{
+    margin-top: 10px;
+}
+#sign > button {
+    background-color:#1a73e8;
+    color: white;
+    border-radius: 15%;
+    height: 35px;
+    width: 75px;
+    font-size: 13px;
 }
 p
 {
@@ -20,3 +64,83 @@ p
     padding:10px;
     margin-top: 5px;;
 }
+#firstrow{
+background-color:/* grey;*/
+
+}
+#secondrow{
+/*background-color: honeydew;*/
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.overall{
+    /*border: 1px solid red;*/
+    display: flex;
+    height: 35px;
+}
+#search1 {
+height: 30px;
+width: 40em;
+border-radius: 20px;
+background-image:url(../images/lupa.png);
+position: left;
+padding-left: 30px;
+background-size:29px;
+background-repeat: no-repeat;
+padding-right: 30px;
+}
+
+#microf{
+height: 28px;
+margin-top: 4px;
+margin-left: -40px;
+margin-top:  1px;
+position:relative;
+top: 10px;
+}
+
+/*
+.lupa > img{
+    height: 30px;
+    position: static;
+
+}
+*/
+.mic > img {
+    height: 30px;
+}
+.btn {
+    position: relative;
+    top:1em;
+    left:10em;
+   font-size: 13px;
+   background-color: rgb(144, 144, 150); 
+
+}
+
+#thirdrow{
+background-color:/* rgba(240, 230, 140, 0.555);*/
+}
+#foogle
+{
+    width: 250px;
+    /*border: 1px solid red;*/
+}
+#country
+{
+background-color: gainsboro;
+
+}
+footer
+{
+    display: flex;
+    background-color: gainsboro;
+    
+}
+#empty{
+    
+}
+
+
