@@ -90,6 +90,7 @@ padding-left: 30px;
 background-size:29px;
 background-repeat: no-repeat;
 padding-right: 30px;
+border: 1px solid rgba(128, 128, 128, 0.308);
 }
 
 #microf{
@@ -116,7 +117,11 @@ top: 10px;
     top:1em;
     left:10em;
    font-size: 13px;
-   background-color: rgb(144, 144, 150); 
+   background-color: rgba(144, 144, 150, 0.219); 
+   border-radius: 8px;
+   border: none;
+height: 3em;
+margin:1em;
 
 }
 
@@ -130,17 +135,16 @@ background-color:/* rgba(240, 230, 140, 0.555);*/
 }
 #country
 {
-background-color: gainsboro;
+background-color: rgba(220, 220, 220, 0.288);
 
 }
 footer
 {
     display: flex;
-    background-color: gainsboro;
+    background-color: rgba(220, 220, 220, 0.288);
     
 }
 #empty{
     
 }
-
 
